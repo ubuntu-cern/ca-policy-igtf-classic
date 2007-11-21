@@ -1,0 +1,15 @@
+This package was debianized by FROHNER Ákos <akos@frohner.hu> on
+Wed,  21 Nov 2007 17:18:00 +0100.
+
+It was packaged from the repository of http://eugridpma.org/
+
+Upstream Author: IGTF/EuGridPMA
+
+Copyright: (c) 2007, FROHNER Ákos <akos@frohner.hu>
+
+License: CA certificates are free to distribute.
+    
+
+The Debian packaging is (C) 2007, FROHNER Ákos <akos@frohner.hu> and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+

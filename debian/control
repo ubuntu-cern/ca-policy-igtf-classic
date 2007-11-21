@@ -1,0 +1,12 @@
+Source: igtf-classic
+Section: contrib/utils
+Priority: extra
+Maintainer: FROHNER Ákos <akos@frohner.hu>
+Build-Depends: debhelper (>= 5), coreutils
+Standards-Version: 3.7.2
+
+Package: igtf-classic
+Architecture: all
+Description: IGTF Classic CA Certificates
+ This package contains the classic Certification Authoritiy Certificates
+ from http://eugridpma.org/
