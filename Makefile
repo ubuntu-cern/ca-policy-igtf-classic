@@ -2,11 +2,10 @@
 
 include VERSION
 
-PACKAGE = igtf-classic-$(VERSION)
+PACKAGE = ca-policy-igtf-classic-$(VERSION)
 BASEURL = https://dist.eugridpma.info/distribution/igtf/current/accredited/
 BUNDLE = igtf-preinstalled-bundle-classic-$(VERSION).tar.gz
 BUILD = build
-
 
 $(BUNDLE):
 	wget $(BASEURL)/$(BUNDLE)
@@ -32,7 +31,7 @@ deb: tarball
 	cp $(BUILD)/*.deb .
 
 changelog:
-	echo -e "igtf-classic ($(VERSION))\n\n" >cvs.changelog.header
+	echo -e "ca-policy-igtf-classic ($(VERSION))\n\n" >cvs.changelog.header
 
 clean:
 	-rm -rf $(BUNDLE) $(BUILD)
