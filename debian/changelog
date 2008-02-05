@@ -7,7 +7,7 @@ ca-policy-igtf-classic (1.19) unstable; urgency=low
     * New classic CA UGRID (hash 0a12b607) for the Ukraine (UA)
     * New classic CA UNAM-grid (hash 24c3ccde) for Mexico (MX)
 
- -- FROHNER Ákos <akos@frohner.hu>  Tue, 5 Feb 2008 09:55:00 +-100
+ -- FROHNER Ákos <akos@frohner.hu>  Tue, 5 Feb 2008 09:55:00 +0100
 
 ca-policy-igtf-classic (1.18) unstable; urgency=low
 
