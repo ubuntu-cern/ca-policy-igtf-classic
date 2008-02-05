@@ -1,3 +1,14 @@
+ca-policy-igtf-classic (1.19) unstable; urgency=low
+
+    * Added PK-Grid-2007 Root CA certificate (will supersede d2a353a5) (PK)
+    * New contact email address for all PK-Grid CAs (PK)
+    * Updated and extended lifetime of ArmeSFo root cert with same keypair (AM)
+    * New CA certificate download locations for SwissSign CAs (CH)
+    * New classic CA UGRID (hash 0a12b607) for the Ukraine (UA)
+    * New classic CA UNAM-grid (hash 24c3ccde) for Mexico (MX)
+
+ -- FROHNER Ákos <akos@frohner.hu>  Tue, 5 Feb 2008 09:55:00 +-100
+
 ca-policy-igtf-classic (1.18) unstable; urgency=low
 
     * First release for Debian/Ubuntu.
