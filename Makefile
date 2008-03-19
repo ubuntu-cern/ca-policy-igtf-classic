@@ -31,7 +31,7 @@ deb: tarball
 	cp $(BUILD)/*.deb .
 
 changelog:
-	echo -e "ca-policy-igtf-classic ($(VERSION))\n\n" >cvs.changelog.header
+	dch -v $(VERSION)
 
 clean:
 	-rm -rf $(BUNDLE) $(BUILD)

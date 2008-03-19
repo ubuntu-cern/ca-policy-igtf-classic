@@ -1,3 +1,12 @@
+ca-policy-igtf-classic (1.20) unstable; urgency=low
+
+  * Added accredited classic MARGI CA (MK)
+  * Withdrawn expired SWITCH-Server-2006 and SWITCH-Personal-2006 CAs (CH)
+  * Corrected namespace syntax for SWITCHaai CA (CH)
+  * Updated namespace definitions in DFN GridGermany hierarchy (DE)
+
+ -- Frohner Ákos <akos@frohner.hu>  Wed, 19 Mar 2008 13:36:55 +0100
+
 ca-policy-igtf-classic (1.19) unstable; urgency=low
 
     * Added PK-Grid-2007 Root CA certificate (will supersede d2a353a5) (PK)
