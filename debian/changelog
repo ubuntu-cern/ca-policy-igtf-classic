@@ -1,3 +1,9 @@
+ca-policy-igtf-classic (1.21) unstable; urgency=low
+
+  * IMPORTANT update of the UKeScience Root and Issuing CAs (UK)
+
+ -- Frohner Ákos <akos@frohner.hu>  Sun, 25 May 2008 22:30:48 +0200
+
 ca-policy-igtf-classic (1.20) unstable; urgency=low
 
   * Added accredited classic MARGI CA (MK)
