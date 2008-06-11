@@ -1,3 +1,11 @@
+ca-policy-igtf-classic (1.22) unstable; urgency=low
+
+  * updated extensions in PK-Grid-2007 root certificate (same keypair) (PK)
+  * added accredited classic CA Iran-Grid (hash ce33db76) (IR)
+  * withdrawn expiring ASGCCA (hash a692434d) (TW)
+
+ -- Frohner Ákos <akos@frohner.hu>  Wed, 11 Jun 2008 10:55:06 +0200
+
 ca-policy-igtf-classic (1.21) unstable; urgency=low
 
   * IMPORTANT update of the UKeScience Root and Issuing CAs (UK)
