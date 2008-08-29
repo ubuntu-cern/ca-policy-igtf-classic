@@ -1,3 +1,16 @@
+ca-policy-igtf-classic (1.24) unstable; urgency=low
+
+  * Withdrawn NCHC (hash 71a89a47) for urgent operational reasons (TW)
+  * Updated metadata for CyGrid (CY), SlovakGrid (SK), Grid-FR (FR)
+    and NCSA-SLCS and MICS (US)
+  * Removed old UKeScienceRoot (8175c1cd) and UKeScience (adcbc9ef)
+    that were replaced in 2006 by updated root and issuing CAs (UK)
+  * Updated LIPCA certificate, based on same key pair (PT)
+  * Added accredited classic MREN CA (ME)
+  * Added NGO-Netrust (SG), PRAGMA-UCSD (PRAGMA), and NCHC (TW)
+
+ -- Frohner Ákos <akos@frohner.hu>  Fri, 29 Aug 2008 17:15:46 +0200
+
 ca-policy-igtf-classic (1.22) unstable; urgency=low
 
   * updated extensions in PK-Grid-2007 root certificate (same keypair) (PK)
