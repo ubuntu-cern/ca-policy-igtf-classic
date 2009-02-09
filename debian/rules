@@ -1,8 +1,15 @@
 #!/usr/bin/make -f
 
 # Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
+#
+# GNU copyright 2008 Akos FROHNER <akos@frohner.hu>
+#
 
+VERSION=$(shell head -1 debian/changelog | sed 's/.*(\(.*\)).*/\1/')
+BASEURL=https://dist.eugridpma.info/distribution/igtf/current/accredited/
+BUNDLE=igtf-preinstalled-bundle-classic-$(VERSION).tar.gz
+CADIR=/etc/grid-security/certificates
+BUILDCADIR=$(CURDIR)/debian/ca-policy-igtf-classic/$(CADIR)
 
 configure: configure-stamp
 configure-stamp:
@@ -20,15 +27,21 @@ clean:
 	dh_testdir
 	dh_testroot
 	rm -f build-stamp configure-stamp
-	-$(MAKE) clean
+	rm -f $(BUNDLE)
 	dh_clean 
 
-install: build
+
+$(BUNDLE):
+	wget $(BASEURL)/$(BUNDLE)
+
+install: build $(BUNDLE)
 	dh_testdir
 	dh_testroot
 	dh_clean -k 
 	dh_installdirs
-	$(MAKE) prefix=$(CURDIR)/debian/ca-policy-igtf-classic install
+	install -m 0775 -d $(BUILDCADIR)
+	tar -xzf $(PWD)/$(BUNDLE) -C $(BUILDCADIR)
+	chmod 0644 $(BUILDCADIR)/*
 
 binary-indep: build install
 	dh_testdir

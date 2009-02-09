@@ -1,7 +1,6 @@
 Source: ca-policy-igtf-classic
 Section: contrib/utils
 Priority: extra
-Architecture: all
 Maintainer: FROHNER Ákos <akos@frohner.hu>
 Build-Depends: debhelper (>= 5), coreutils
 Standards-Version: 3.7.2

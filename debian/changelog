@@ -1,3 +1,31 @@
+ca-policy-igtf-classic (1.27) intrepid; urgency=low
+
+  * Corrected signing namespace for BEGrid2008 CA (BE)
+  * Added NERSC SLCS CA (US)
+  * ASGCCA-2007 changed signature algorithm from MD5 to SHA1 (TW)
+  * Added new CNRS2 hierarchy: CNRS2 -> CNRS2-Projets -> CNRS2-Grid-FR (FR)
+  * Updated IUCC root certificate (IL)
+  * Obsoleted EstonianGrid CA (EE)
+  * Added accredited classic Indian Grid CA (IGCA) (hash da75f6a8) (IN)
+  * Updated IUCC root certificate with extended life time (IL)
+  * Updated BEGrid (web, CRL) and UCSD-PRAGMA (web) URL metadata (BE, AP/US)
+  * New BEGrid2008 root certificate (transitional) (BE)
+  * Extended life time of the SEE-GRID CA (SEE)
+  * Included CRL for NCSA SLCS CA (US)
+  * Temporally removed NGO-Netrust CA (SG)
+  * Withdrawn expired old PK-Grid CA (d2a353a5, superseded by f5ead794) (PK)
+  * Experimentally added Texas Advanced Computer Center TACC Root, 
+    Classic, and MICS CAs to the experimental area (US)
+  * Added accredited classic NCHC CA (TW)
+  * Updated metadata for AIST GRID CA (JP)
+  * Updated AIST GRID CA (extended life time) based on same key pair (JP)
+  * Updated metadata for APAC Grid CA (AU)
+  * Updated metadata (CRL URL) for NGO-Netrust CA (SG)
+  * updates to CA contact data in info files (EU, multiple)
+  * updated certificates in the experimental or worthless areas (misc)
+
+ -- Frohner Ákos <akos@frohner.hu>  Mon, 09 Feb 2009 02:14:14 +0100
+
 ca-policy-igtf-classic (1.24) unstable; urgency=low
 
   * Withdrawn NCHC (hash 71a89a47) for urgent operational reasons (TW)
