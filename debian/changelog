@@ -1,3 +1,16 @@
+ca-policy-igtf-classic (1.28) intrepid; urgency=low
+
+  * Added accredited classic ULAGrid CA (VE)
+  * Added accredited TACC Root and TACC Classic CAs (US)
+  * Updated NERSC CRL URL download location (US)
+  * Updated DOEGrids CRL URL download location (US)
+  * Extended life time of NorduGrid CA (1f0e8352) (DK,SE,NO,FI,IS)
+  * Added SigmaNet CALG CA (LV)
+  * Updated AEGIS CA root certificate to reflect TLD name change (RS)
+  * Added CRL and new cert for SWITCH-SLCS issuing CA (304cf809) (CH)
+
+ -- Frohner Ákos <akos@frohner.hu>  Wed, 25 Mar 2009 21:45:16 +0100
+
 ca-policy-igtf-classic (1.27) intrepid; urgency=low
 
   * Corrected signing namespace for BEGrid2008 CA (BE)
