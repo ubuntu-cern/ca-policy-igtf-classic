@@ -1,3 +1,15 @@
+ca-policy-igtf-classic (1.29) intrepid jaunty; urgency=low
+
+  * Restored NGO-Netrust CA (SG)
+  * Updated AIST Grid (CRL) URL metadata (JP)
+  * Added accredited MD-Grid CA with hash 9ff26ea4 (MD)
+  * Added accredited HKU Grid CA with hash 4798da47 (HK)
+  * Updated signing policy file of APAC Grid CA (AU)
+  * Added accredited classic BYGCA (Belarus) with hash 709bed08 (BY)
+  * Updated namespace for the APAC CA (AU, NZ)
+
+ -- Frohner Ákos <akos@frohner.hu>  Fri, 22 May 2009 16:57:43 +0200
+
 ca-policy-igtf-classic (1.28) intrepid; urgency=low
 
   * Added accredited classic ULAGrid CA (VE)
