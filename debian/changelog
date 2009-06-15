@@ -1,3 +1,15 @@
+ca-policy-igtf-classic (1.30) intrepid jaunty; urgency=low
+
+  * Updated contact meta-data for BYGCA, hash 709bed08 (BY)
+  * Updated URLs for DFN Grid PKI public web pages (DE)
+  * Added accredited NCSA GridShib SLCS CA (US)
+  * Added accredited DFN SLCS CA (DE)
+  * Added accredited TACC MICS CA (US)
+  * Added accredited SWITCH (QuoVadis anchored) CAs (CH)
+  * Added accredited FNAL-SLCS CA (US)
+
+ -- Frohner Ákos <akos@frohner.hu>  Mon, 15 Jun 2009 13:27:11 +0200
+
 ca-policy-igtf-classic (1.29) intrepid jaunty; urgency=low
 
   * Restored NGO-Netrust CA (SG)
