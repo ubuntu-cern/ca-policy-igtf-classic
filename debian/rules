@@ -6,7 +6,7 @@
 #
 
 VERSION=$(shell head -1 debian/changelog | sed 's/.*(\(.*\)).*/\1/')
-BASEURL=https://dist.eugridpma.info/distribution/igtf/current/accredited/
+BASEURL=https://dist.eugridpma.info/distribution/igtf/$(VERSION)/accredited/
 BUNDLE=igtf-preinstalled-bundle-classic-$(VERSION).tar.gz
 CADIR=/etc/grid-security/certificates
 BUILDCADIR=$(CURDIR)/debian/ca-policy-igtf-classic/$(CADIR)
