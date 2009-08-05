@@ -1,3 +1,11 @@
+ca-policy-igtf-classic (1.31) intrepid jaunty; urgency=low
+
+  * Removed expired root certificate for BEGrid (03aa0ecb) (BE)
+  * Removed expired and discontinued User and Server issuing CAs
+    for DFN (fe102e03 and 34f8e29c) (DE)
+
+ -- Frohner Ákos <akos@frohner.hu>  Wed, 05 Aug 2009 16:26:22 +0200
+
 ca-policy-igtf-classic (1.30) intrepid jaunty; urgency=low
 
   * Updated contact meta-data for BYGCA, hash 709bed08 (BY)
