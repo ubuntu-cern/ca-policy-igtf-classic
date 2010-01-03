@@ -1,3 +1,19 @@
+ca-policy-igtf-classic (1.32) intrepid jaunty karmic; urgency=low
+
+  * Updated country TLD in URLs and email for AEGIS CA (RS)
+  * Updated contact information for CALC CA (LV)
+  * Extended life time and updated profile or TR-Grid CA cert and CRL URL (TR)
+  * Updated and added references to CP and CPS documents for the following
+    authorities: HellasGrid (GR), ROSA (RO), DutchGrid (NL), IRAN-GRID (IR),
+    and BYGCA (BY)
+  * Withdrawn obsolete CAs SWITCH-Personal-2007, SwissSign-Root, SWITCH, 
+    SwissSign-Bronze, SwissSign-Silver, SWITCH-Server-2007 (CH)
+  * Withdrawn expired and discontinued CA RMKI (HU)
+  * Added persistently-named links to pre-installed accredited bundles
+  * Added selected UNaccredited CAs to the "worthless" area
+
+ -- Frohner Ákos <akos@frohner.hu>  Sun, 03 Jan 2010 23:30:29 +0100
+
 ca-policy-igtf-classic (1.31) intrepid jaunty; urgency=low
 
   * Removed expired root certificate for BEGrid (03aa0ecb) (BE)

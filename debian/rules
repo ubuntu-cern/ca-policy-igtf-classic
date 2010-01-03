@@ -32,7 +32,7 @@ clean:
 
 
 $(BUNDLE):
-	wget $(BASEURL)/$(BUNDLE)
+	wget --ca-certificate=TERENA-SSL-CA.crt $(BASEURL)/$(BUNDLE)
 
 install: build $(BUNDLE)
 	dh_testdir
